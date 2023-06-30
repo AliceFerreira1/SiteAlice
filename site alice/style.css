@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-color: white;
+}
+
+header {
+    background-image: url(assets/fundorosa.avif);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    border: 0px solid pink;
+}
+
+.titulo {
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 1vw;
+}
+
+#produto {
+    background-color: pink;
+    border-radius: 5px;
+    height: 85px;
+    right: 30px;
+    font-size: 11px;
+    margin-left: 100px;
+    margin-right: 10vw;
+}
+
+.Menu {
+    margin-right: 80px;
+    font-size: 30px;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frase {
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 1vw;
+    font-family:'IBM Plex Mono', monospace;;
+}
+.frase2 {
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 1vw;
+    font-family: 'Oswald', sans-serif;
+}
+.imagens:hover{
+    transform: scale(1.25);
+}
+.imagens{
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    margin-left: 155px;
+}
+.produto2{
+    margin-right: 5px;
+    margin-left: 5vw;
+    width: 30vw;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.descricao{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 17vw;
+    margin-top: -10px;
+}
+.preço{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 19vw;
+}
+.preço1{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 48vw;
+    margin-top: 15vh;
+    margin-top: -180px;
+}
+.descricao1{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 45vw;
+    margin-bottom: 15%;
+    margin-top: -45px;
+}
+.preço2{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 75vw;
+    margin-top: 15vh;
+    margin-top: -180px;
+}
+.descricao2{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 70vw;
+    margin-bottom: 15%;
+    margin-top: -75px;
+}
+.compre_aqui{
+    text-decoration: none;
+    margin-left: 220px;
+    font-size: 20px;
+    border: solid 2px;
+    width: 18vh;
+    color: pink;
+}
+.compre_aqui2{
+    text-decoration: none;
+    margin-left: 570px;
+    font-size: 20px;
+    border: solid 2px;
+    width: 18vh;
+    color: pink;
+}
+.compre_aqui3{
+    text-decoration: none;
+    margin-left: 910px;
+    font-size: 20px;
+    border: solid 2px;
+    width: 18vh;
+    color: pink;
+}
+.imagem2{
+    margin-right: 25px;
+    margin-left: 10vw;
+    width: 25vw;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.complete_seu_carrinho{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 88vh;
+    align-items: center;
+}
+.complete_seu_carrinho2{
+    color: rgb(235, 115, 135);
+    text-decoration: none;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 82vh;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.complemento_primário:hover{
+transform: scale(1.25);
+}
+
+.complemento_primário{
+    margin-bottom: 140%;
+    margin-right: 10px;
+    margin-left: 10vw;
+    width: 10vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.complemento_secundário:hover{
+    transform: scale(1.25);
+    }
+
+.complemento_secundário{
+    margin-bottom: 140%;
+    margin-right: 10px;
+    margin-left: 10vw;
+    width: 10vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.complemento_terciário:hover{
+    transform: scale(1.25);
+    }
+.complemento_terciário{
+    margin-bottom: 140%;
+    margin-right: 10px;
+    margin-left: 10vw;
+    width: 15vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.complemento_quartário:hover{
+    transform: scale(1.25);
+    }
+.complemento_quartário{
+    margin-bottom: 140%;
+    margin-right: 10px;
+    margin-left: 10vw;
+    width: 14vw;
+    align-items: center;
+    justify-content: space-between;
+}
+#complementospag{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    size: 100px;
+    height: 180vh;
+    border: 1px solid pink;
+}
+.descriçao_primária{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 8vw;
+    margin-top: -280vh;
+}
+.preço_primário{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 10vw;
+}
+.descriçao_secundária{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 30vw;
+    margin-top: -12vh ;
+}
+.preço_secundária{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 34vw;
+}
+.descriçao_terciária{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 57vw;
+    margin-top: -12vh;
+}
+.preço_terciário{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 58vw;
+}
+.descriçao_quartária{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 80vw;
+    margin-top: -10vh;
+}
+.preço_quartário{
+    color: rgb(222, 84, 107);
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 84vw;
+}
+.compre_aqui4{
+    text-decoration: none;
+    margin-left: 105px;
+    font-size: 20px;
+    border: solid 2px;
+    width: 18vh;
+    color: pink;
+}
+.compre_aqui5{
+    text-decoration: none;
+    margin-left: 400px;
+    font-size: 20px;
+    border: solid 2px;
+    width: 18vh;
+    color: pink;
+}
+.compre_aqui6{
+    text-decoration: none;
+    margin-left: 705px;
+    font-size: 20px;
+    border: solid 2px;
+    width: 18vh;
+    color: pink;
+}
+.compre_aqui7{
+    text-decoration: none;
+    margin-left: 1015px;
+    font-size: 20px;
+    border: solid 2px;
+    width: 18vh;
+    color: pink;
+}
+.cadastro{
+    margin-top: -90px;
+    margin-left: 40px;
+    font-family: 'Times New Roman';
+}
+#nome{
+    height: 25px;
+    width: 40vh;
+    margin-top: 5px;
+}
+#email{
+    height: 25px;
+    width: 40vh;
+    margin-top: 5px;
+}
+#bnt{
+    height: 30px;
+    width: 62px;
+    color: solid pink;
+    background-color: pink;
+    text-shadow: 1px 1px 1px pink;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+#carrinhopag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 148, 166);
+    size: 150px;
+    height: 10vh;
+    border:1px solid  rgb(255, 148, 166);
+}
+.tituloloja{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+.subtituloloja{
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+#finalcarrinhopag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 148, 166);
+    size: 150px;
+    height: 10vh;
+    border:1px solid rgb(255, 148, 166);
+    margin-bottom: -150px;
+}
+.titulo_lançamento{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 55vh;
+}
+.imagem_lançamento{
+    margin-bottom: 10%;
+    margin-top: 2vw;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.insta{
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 85vh;  
+    color: rgb(255, 148, 166) ;
+}
